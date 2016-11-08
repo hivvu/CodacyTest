@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]><html class="ie9" lang="pt"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="pt"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="HandheldFriendly" content="true">
+	<title>Love, Set &amp; Go! | Passatempos TAP</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link href="css/styles.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+	<meta property="fb:app_id" content="1722098058025861">
+	<meta property="og:title" content="Love, Set &amp; Go! — Até onde o amor vos levar. ">
+	<meta property="og:url" content="http://passatempos.flytap.com/lovesetgo">
+	<meta property="og:description" content="Uma busca pelo Aeroporto oferece uma viagem aos mais apaixonados.">
+	<meta property="og:image" content="http://passatempos.flytap.com/lovesetgo/images/share-pt.png">
+	<meta property="og:locale" content="pt_PT">
+</head>
+<body>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-30102483-40', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+	<div id="fb-root"></div>
+
+	<script>
+	window.fbAsyncInit = function () {
+		FB.init({
+			appId      : '1722098058025861',
+			xfbml      : true,
+			version    : 'v2.5'
+		});
+
+		if (typeof facebookInit == 'function'){
+			facebookInit();
+			}
+
+	};
+
+		(function(d, s, id){
+			 var js, fjs = d.getElementsByTagName(s)[0];
+			 if (d.getElementById(id)) {return;}
+			 js = d.createElement(s); js.id = id;
+			 js.src = "//connect.facebook.net/en_US/sdk.js";
+			 fjs.parentNode.insertBefore(js, fjs);
+		 }(document, 'script', 'facebook-jssdk'));
+ </script>
+
+	<section class="fb-Wrapper clearfix">
+		<!-- TAP HEADER -->
+		<div class="header">
+			<div class="main-menu fb-center">
+				<a class="pull-left" href="http://passatempos.flytap.com/index-pt.html" title=""><span>Todos os passatempos</span></a>
+				<div class="header-title">Passatempos</div>
+				<a class="pull-right language en" href="index-en.html">
+					<span class="desktop">Read in English</span>
+					<span class="mobile">EN</span>
+				</a>
+				<div class="clearfix"></div>
+			</div>
+			<div class="mobile">
+				<div class="menu">
+
+					<div class="logo-mobile"></div>
+					<div class="mobile-lang">
+						<a class="pull-right language en" href="index-en.html">
+							<span class="desktop">Read in English</span>
+							<span class="mobile">EN</span>
+						</a>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+
+		<!-- COMPETITION HEADER -->
+		<div class="fb-head clearfix">
+			<div class="fb-Navigation only-desktop">
+				<a href="regulamento.html" class="red-button">Regulamento</a>
+				<a href="#" class="blue-button fbButtonShare" data-url="http://localhost/">Partilhar</a>
+			</div>
+			<img src="images/header-pt.png" alt="" />
+			<div class="fb-head-logo">
+				<div class="fb-head-content">
+					<h1>Love, Set &amp; Go! — Até onde o amor vos levar. </h1>
+					<p>A febre da Paixão está no ar:<br/> A TAP vai oferecer 6 viagens aos casais que mostrarem que o seu amor os leva onde for preciso.</p>
+
+					<div class="fb-Navigation only-mobile">
+						<a href="regulamento.html" class="red-button">Regulamento</a>
+						<a href="#" class="blue-button fbButtonShare" data-url="http://localhost/">Partilhar</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- MODAL -->
+		<div id="dialogHowToWin" class="dialog dialog-overlay" style="height: 1890px;">
+			<div class="fb-Center">
+				<div class="close-overlay"><a href="#" onclick="javascript: closeOverlay(); return false;" title="Fechar">Fechar</a></div>
+				<h2>Como podem ganhar?</h2>
+				<p>Os casais que pretenderem participar neste passatempo terão de se dirigir ao Aeroporto de Lisboa no dia 14 de fevereiro de 2016, após comunicação no Facebook da TAP, no próprio dia.</p>
+
+<p>Os apaixonados deverão estar vestidos com trajes de cerimónia de casamento. Independentemente da cultura ou linha estética, deverá ser óbvio e percetível que os membros do casal estão vestidos com roupas que poderiam ser usadas na celebração de uma união matrimonial. </p>
+ 
+<p>Os concorrentes também têm de estar preparados para viajar. Devem trazer consigo a bagagem e devem cumprir os requisitos necessários para viajar: serem ambos maiores de idade e apresentarem passaportes válidos. Só a TAP poderá decidir se os casais cumprem todas as regras do desafio, de forma a apurar o vencedor do mesmo.</p>
+
+<p>Por fim, os casais têm de encontrar a localização secreta para ganharem um dos prémios. Os participantes deverão estar atentos à página de Facebook da TAP, onde serão dadas pistas que os vão ajudar na busca pelo prémio. Os 6 primeiros casais a encontrarem o local, e que respeitem todos os requisitos, vão poder embarcar numa das viagens românticas para destinos TAP.</p>
+				<h2>Condições</h2>
+				<p>1. Os dois elementos de cada casal devem apresentar-se em conjunto, vestidos para casar, e apresentar passaportes válidos (no mínimo até 6 meses). </p>
+<p>2. Os casais vencedores têm de usufruir do prémio nessa mesma altura e devem estar dispostos e preparados para viajar imediatamente. Não será possível, em qualquer circunstância, adiar ou alterar a data dos voos ou das estadias.</p>
+<p>3. Se um dos casais vencedores, por qualquer motivo, estiver impedido de embarcar, o prémio será entregue a outro casal participante.</p>
+				<div class="buttons">
+					<a href="regulamento.html" class="red-button">Regulamento</a>
+				</div>
+			</div>
+		</div>
+
+		<div id="dialogWhatToWin" class="dialog dialog-overlay" style="height: 1890px;">
+			<div class="fb-Center">
+				<div class="close-overlay"><a href="#" onclick="javascript: closeOverlay(); return false;" title="Fechar">Fechar</a></div>
+				<h2>O que podem ganhar?</h2>
+				<p>Os 6 primeiros casais a encontrarem a localização secreta no Aeroporto de Lisboa, divulgada no Facebook da TAP no dia 14 de fevereiro, ganham viagens com estadia nos seguintes destinos TAP, pela ordem de chegada: Natal (2 casais), Roma, Paris, Funchal e Ponta Delgada. Os casais vencedores terão de embarcar no próprio dia da ação. </p>
+
+				<h2>Condições</h2>
+				<p>1. Os dois elementos de cada casal devem apresentar-se em conjunto, vestidos para casar, e apresentar passaportes válidos (no mínimo até 6 meses). </p>
+<p>2. Os casais vencedores têm de usufruir do prémio nessa mesma altura e devem estar dispostos e preparados para viajar imediatamente. Não será possível, em qualquer circunstância, adiar ou alterar a data dos voos ou das estadias.</p>
+<p>3. Se um dos casais vencedores, por qualquer motivo, estiver impedido de embarcar, o prémio será entregue a outro casal participante. </p>
+				<div class="buttons">
+					<a href="regulamento.html" class="red-button">Regulamento</a>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- CONTENT -->
+		<div class="general-content">
+			<div class="fb-Center">
+				<div class="prizes">
+					<div class="item pull-left">
+						<div class="title">
+							O que podem ganhar?
+						</div>
+						<div class="text">
+							A febre da Paixão chegou à TAP. No Dia dos Namorados, vamos oferecer viagens para Natal, Roma, Paris, Funchal e Ponta Delgada a 6 casais apaixonados, com estadia incluída. Tenham atenção, porque terão de embarcar imediatamente. É chegar, ganhar e voar!
+						</div>
+						<div class="morelink">
+							<a data-dialog="dialogWhatToWin" href="#" title="Saiba mais" class="red-button has-icon"><span class="icon-heart"></span>Saiba mais<span class="icon-heart"></span></a>
+						</div>
+					</div>
+					<div class="item pull-right">
+						<div class="title">
+							Como podem ganhar?
+						</div>
+						<div class="text">
+							Mostrem a Força da vossa Paixão: No Dia dos Namorados, peguem no passaporte e venham até ao Aeroporto de Lisboa vestidos de noivos e de malas feitas. Depois, só têm de dar as mãos, ir à página de Facebook da TAP e descobrir o lugar secreto onde podem ganhar umas férias românticas. Os primeiros a encontrá-lo embarcam de imediato!
+						</div>
+						<div class="morelink"><a data-dialog="dialogHowToWin" href="#" title="Saiba mais" class="red-button has-icon"><span class="icon-heart"></span>Saiba mais<span class="icon-heart"></span></a></div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="fb-push">
+
+			<a href="http://www.flytap.com/Portugal/pt/Homepage" target="_blank" title="TAP Portugal"><img src="images/footer-logo-tap.png" alt="" title="TAP Portugal" /></a>
+			<a href="http://www.ana.pt/pt-PT/Paginas/Homepage.aspx" target="_blank" title="ANA Aeroportos de Portugal"><img src="images/footer-logo-ana.png" alt="" title="ANA Aeroportos de Portugal" /></a>
+			<a href="http://www.vinci-airports.com/" target="_blank" title="Vinci Airports"><img src="images/footer-logo-vinci.png" alt="" title="Vinci Airports" /></a>
+			<a href="http://www.embratur.gov.br/" target="_blank" title="Embratur"><img src="images/footer-logo-brazil.png" alt="" title="Embratur" /></a>
+
+		</div>
+
+		<script>
+
+				function closeOverlay() {
+						$('.dialog').hide();
+				}
+
+
+				$(function(){
+					$('.fbButtonShare').click(function(){
+						FB.ui({
+						  method: 'feed',
+						  link: 'http://apps.wingman.pt/TAPLoveSetGo/',
+						  caption: 'Uma viagem para o Brasil e uma estadia de 5 noites em Natal. Atenção, o prémio só é válido para aquele dia e para aquela hora. É chegar, ganhar e voar!',
+						}, function(response){});
+					});
+
+					if ($('.dialog').length) {
+							$('.morelink a').click(function () {
+									var curDialog = $(this).attr('data-dialog');
+									$('#'+curDialog).show();
+							});
+					}
+				});
+		</script>
+
+	</section>
+</body>
+</html>

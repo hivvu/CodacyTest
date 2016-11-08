@@ -1,0 +1,1313 @@
+
+@font-face {
+    font-family: 'flama';
+    src: url('../fonts/flama-basic-webfont.eot');
+    src: url('../fonts/flama-basic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/flama-basic-webfont.ttf') format('truetype'),
+         url('../fonts/flama-basic-webfont.svg#flamabasic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'flama-bold';
+    src: url('../fonts/ufonts.com_flama-bold-opentype-webfont.eot');
+    src: url('../fonts/ufonts.com_flama-bold-opentype-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ufonts.com_flama-bold-opentype-webfont.ttf') format('truetype'),
+         url('../fonts/ufonts.com_flama-bold-opentype-webfont.svg#flamabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* ------------------------------- */
+/* HTML 5 ELEMENTS
+/* ------------------------------- */
+article, aside, figure, figcaption, footer, header, hgroup, menu, nav, section { display: block; }
+
+/* ------------------------------- */
+/* GENERAL ELEMENTS
+/* ------------------------------- */
+*{
+      margin: 0;
+      padding: 0;
+}
+
+a, a:active{
+      cursor:           pointer;
+      color:            #000000;
+      text-decoration:  underline;
+}
+a:hover
+{
+      text-decoration: none;
+}
+
+img,
+fieldset
+{
+      border: 0;
+}
+
+html,
+body,
+form
+{
+    min-height: 100%;
+}
+
+body{
+    /*font:           100%/1.2 'Lato', sans-serif;*/
+    font: 100%/1.2 'brandon', sans-serif;
+    font-weight: 400;
+    background: #caeaf1;
+
+    color: #d24442;
+}
+
+.hidden{
+    display: none;
+}
+
+.invisible{
+    visibility: hidden;
+}
+
+/* dialog boxes */
+.dialog-overlay {
+    position:   absolute;
+    z-index:    1001;
+    display:    none;
+    width:      100%;
+    height:     100%;
+    background: #caeaf1;
+
+}
+
+.close-overlay {
+    clear:      both;
+    text-align: center;
+    height:     70px;
+}
+
+.close-overlay a{
+    display:    inline-block;
+    zoom:       1;
+    *display:   inline;
+    width:      17px;
+    height:     17px;
+    text-indent: 9999px;
+    overflow:   hidden;
+    background: url(../images/x.png) no-repeat left top;
+}
+
+.close-overlay a:hover {
+    background: url(../images/x_hover.png) no-repeat left top;
+}
+
+.title-overlay{
+    width:      100%;
+    clear:      both;
+    text-align: center;
+    padding:    0 0 15px;
+}
+
+.title-overlay .title{
+    width:      100%;
+    clear:      both;
+    font-size:  20px;
+    color:      #ffffff;
+    padding:    0 0 15px;
+}
+
+.title-overlay .subtitle{
+    width:      100%;
+    clear:      both;
+    font-size:  12px;
+    color:      #a0b1e1;
+    padding:    0 0 15px;
+}
+
+.title-overlay .link{
+    width:      100%;
+    clear:      both;
+    font-size:  12px;
+    padding:    0 0 15px;
+}
+
+.title-overlay .link a {
+    color:              #a0b2e2;
+    text-decoration:    none;
+}
+
+.title-overlay .link a:hover {
+    color:              #ffffff;
+    text-decoration:    underline;
+}
+
+.dialog
+{
+    position:       absolute;
+    top:            0;
+    z-index:        50;
+    display:        none;
+    width:          100%;
+    padding:        120px 0 0;
+    text-align: center;
+}
+
+.dialog .buttons{
+    text-align: center;
+}
+
+.dialog h2{
+    font-weight: 300;
+    text-align: center;
+
+    font-size: 22px;
+    display: inline-block;
+    margin: 0 auto 20px;
+    color: #44c0c9;
+    border-bottom: 3px solid #44c0c9;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.dialog p{
+    line-height: 22px;
+    font-weight: 300;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-size: 17px;
+    font-weight: bold
+}
+
+.dialog ul{
+    margin-left: 20px;
+    font-size: 15px
+}
+
+.dialog ul li
+{
+    line-height: 22px
+}
+
+.dialog .fb-Center
+{
+    max-width: 480px;
+}
+
+.dialog .buttons{
+    padding:    20px 0 0 0;
+    text-align: center;
+}
+
+.dialog .buttons-simple
+{
+    padding: 20px 0 0 0;
+    background: none;
+}
+
+.dialog .orlabel
+{
+    display: block;
+    clear: both;
+    text-align: center;
+    font-size: 17px;
+    color: #ffffff;
+    padding: 20px 0 0 0;
+    text-transform: lowercase;
+}
+
+.dialog .share-on-fb{
+    width:      100%;
+    padding:    30px 0 0 0;
+}
+
+/* clearfix propertie */
+.clearfix {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+.clearfix:after {
+  content:  "";
+  display:  table;
+  clear:    both;
+}
+
+.red-button {
+    cursor: pointer;
+    display: inline-block;
+    color: #caeaf1;
+    font-size: 11px;
+    padding: 12px 15px;
+    text-decoration: none;
+    background: #d24442;
+    text-transform: uppercase;
+    font-weight: bold
+}
+
+.red-button:hover{
+    background: #c4403e;
+}
+
+.red-button:active{
+    text-decoration: none;
+    color: #fff
+}
+
+.blue-button {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    font-size: 11px;
+    padding: 12px 15px;
+    text-decoration: none;
+    background: #6c82d1;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-right: 1px solid #fff;
+    margin-right: 57px!important
+}
+
+.blue-button:after{
+  content: '';
+  height: 37px;
+  width: 37px;
+  display: block;
+  position: absolute;
+  background-color: #6c82d1;
+  background-image: url(../images/facebook-logo.png);
+  right: -38px;
+  top: 0;
+}
+
+.blue-button:hover:after,
+.blue-button:hover{
+    background-color: #6072b6;
+}
+
+.blue-button:active{
+    text-decoration: none;
+    color: #fff
+}
+
+.icon-heart{
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  height: 10px;
+  width: 10px;
+  background: url(../images/icon-heart.png) no-repeat 0 0
+}
+
+.red-button.has-icon{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.red-button .icon-heart:first-of-type{
+  margin-right: 5px
+}
+
+.red-button .icon-heart:last-of-type{
+  margin-left: 5px
+}
+
+.goLeft, .pull-left{
+    float: left;
+    clear: left!important;
+}
+
+.goRight, .pull-right{
+    float: right;
+    clear: right!important;
+}
+
+
+/* ------------------------------- */
+/* TAP HEADER
+/* ------------------------------- */
+
+.header
+{
+    background: #e9ebf2;
+    padding: 30px 10px;
+}
+
+.header .mobile
+{
+    display: none
+}
+
+.header .main-menu
+{
+    background: #FFF;
+    padding-top: 10px;
+    max-width:  986px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 100px;
+    text-align: center
+}
+
+.header .main-menu .header-title
+{
+    padding: 13px 10px 7px 6px;
+    background: url(../images/tap-lettering.png) no-repeat 0 0;
+    color: #000;
+    width: 200px;
+    display: inline-block;
+}
+
+.header .main-menu a
+{
+    text-decoration: none;
+    color: #666;
+    font-size: 12px;
+    margin-left: 20px;
+    padding: 15px 0;
+}
+
+.header .main-menu a:hover
+{
+    color: #000
+}
+
+.header .main-menu a span
+{
+    margin: 0 20px;
+    border-bottom: 2px solid #F00;
+    padding-bottom: 14px;
+}
+
+.header .main-menu a.pull-left
+{
+    background: url(../images/arrow-mainmenu-left.gif) no-repeat left 12px
+}
+
+.header .main-menu a.en
+{
+    background: url(../images/en.gif) no-repeat left 14px;
+    padding-left: 15px
+}
+
+.header .main-menu a.pt
+{
+    background: url(../images/pt.gif) no-repeat left 14px;
+    padding-left: 15px
+}
+
+.fb-head  img{
+  max-width: 1005px;
+  width: 90%
+}
+
+/* ------------------------------- */
+/* PAGE STRUCTURE
+/* ------------------------------- */
+.fb-Center {
+    max-width:  768px;
+    margin:     0 auto;
+    clear:      both;
+}
+
+.fb-Wrapper {
+    width:          100%;
+    clear:          both;
+    min-height:     100%;
+    height:         auto!important;
+    height:         100%;
+    padding:        0;
+    margin:         0 auto -121px;
+}
+
+.fb-head {
+  padding-top: 30px;
+  text-align: center;
+  width:          100%;
+  clear:          both;
+}
+
+.fb-head .fb-head-logo {
+    display:    block;
+    clear:      both;
+}
+
+.fb-head-content {
+    width: 410px;
+    text-align: center;
+    padding: 80px 0 90px;
+    margin: 0 auto
+
+}
+
+
+.fb-head .fb-head-logo h1 {
+   display: none
+}
+
+.fb-head .fb-head-logo p{
+
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.fb-head .fb-head-logo-alt {
+    display:        block;
+    clear:          both;
+    text-align:     center;
+    font-family:    'brandon_grotesqueregular';
+    font-size:      23px;
+    color:          #ff6464;
+    padding:        10px 0 0 0;
+}
+
+.navigation-menu{
+    display:        block;
+    clear:          both;
+    width: 450px
+}
+
+.main-Navigation{
+    float:          left;
+    font-size:      19px;
+    font-family:    'brandon_grotesqueblack';
+    text-transform: uppercase;
+ }
+
+.main-Navigation ul {
+    display:    inline-block;
+    clear:      both;
+    list-style: none;
+}
+
+.main-Navigation ul li {
+    float: left;
+}
+
+.main-Navigation ul li a {
+    display:                block;
+    line-height:            40px;
+    color:                  #ffffff;
+    padding:                0 15px;
+    text-decoration:        none;
+    outline:                none;
+    -webkit-border-radius:  10px;
+    -moz-border-radius:     10px;
+    border-radius:          10px;
+    background:             #e30610;
+}
+
+.main-Navigation ul li a:hover,
+.main-Navigation ul li a.selected {
+    background: #c3060f;
+}
+
+.fb-Navigation{
+  text-align: right;
+  max-width: 1024px;
+  width: 90%;
+  margin: 0 auto 15px;
+}
+
+.fb-Navigation a{
+  margin-right: 20px
+}
+
+.navigation-menu .fb-Navigation {
+    float:          left;
+    font-size:      19px;
+    font-family:    'brandon_grotesqueblack';
+    text-transform: uppercase;
+}
+
+.navigation-menu .fb-Navigation .fb-button {
+    display:                block;
+    line-height:            40px;
+    color:                  #ffffff;
+    padding:                0 15px;
+    text-decoration:        none;
+    outline:                none;
+    -webkit-border-radius:  8px;
+    -moz-border-radius:     8px;
+    border-radius:          8px;
+    background:             #ff6464;
+}
+
+.navigation-menu .fb-Navigation .fb-button:hover {
+    background: #3ceecd;
+
+}
+
+
+.general-content {
+    position: relative;
+    clear: both;
+    width: 100%;
+    padding-bottom: 500px;
+    background: url(../images/illustration-large.png) no-repeat center bottom;
+    border-bottom: 4px solid #d44543;
+}
+
+
+.fb-content {
+    position:   relative;
+    float:      left;
+    clear:      both;
+    width:      100%;
+    padding:    50px 0 115px 0;
+    background: #f4f4f4;
+}
+
+/* footer */
+.fb-footer, .fb-push {
+    clear:  both;
+    padding: 45px 0 50px;
+	   height: 31px; /* .push must be the same height as .footer */
+     background: #ebeaf1
+}
+
+.fb-push{
+  text-align: center;
+}
+
+.fb-push img{
+  display: inline-block;
+  margin-right: 40px
+}
+
+/* footer */
+/*
+.fb-footer {
+    position:       relative;
+    float:          left;
+    clear:          both;
+    width:          100%;
+    text-align:     center;
+    background:     #ffffff;
+}
+
+.fb-footer .filler {
+    position:       absolute;
+    left:           0;
+    top:            -8px;
+    width:          100%;
+    height:         50px;
+    background:     url(../images/filler-gray.png) repeat center top;
+}
+
+.fb-footer .partner {
+    float:                  left;
+    display:                inline-block;
+    zoom:                   1;
+    *display:               inline;
+    padding:                30px 25px 0 0;
+}
+
+.fb-footer .partner img{
+    display:    block;
+    clear:      both;
+}
+
+.fb-footer .victoria {
+    float:                  right;
+    display:                inline-block;
+    zoom:                   1;
+    *display:               inline;
+    padding:                30px 0 0 0;
+}
+*/
+/* ------------------------------- */
+/* PAGE STYLES
+/* ------------------------------- */
+
+/* participation-form */
+/*.participation-form{
+    display:    block;
+    clear:      both;
+    max-width:  350px;
+    margin:     0 auto;
+    padding:    0;
+}
+
+.participation-form fieldset {
+    display:    block;
+    clear:      both;
+    padding:    0;
+    margin:     0 0 30px 0;
+}
+
+.participation-form fieldset.fs-victoria {
+    padding:    20px 0 0 0;
+    border:     2px solid #dedede;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.participation-form fieldset.fs-victoria .fieldStyle{
+    width:      76%;
+    margin:     0 7%;
+}
+
+.participation-form fieldset.fs-victoria .register {
+    display:    block;
+    clear:      both;
+    padding:    20px 4.30%;
+    font-size:  12px;
+    line-height: 20px;
+    font-weight: 700;
+    color:      #000000;
+    background: #ffffff;
+}
+
+.participation-form fieldset.fs-victoria .register a {
+    text-decoration:    underline;
+    color:              #000000;
+}
+
+.participation-form fieldset.fs-victoria .register a:hover {
+    text-decoration:    none;
+}
+
+.participation-form .form-title {
+    display:        block;
+    clear:          both;
+    font-weight:    700;
+    font-size:      20px;
+    color:          #000;
+    text-transform: uppercase;
+    text-align:     center;
+    padding:        0 0 25px 0;
+}
+
+.participation-form .separador{
+    position:   relative;
+    display:    block;
+    clear:      both;
+    padding:    0 0 15px 0;
+}
+
+.participation-form .ui-datepicker-trigger {
+    cursor:     pointer;
+    position:   absolute;
+    right:      4.30%;
+    top:        30px;
+}
+
+.participation-form .separador label{
+    display:    block;
+    clear:      both;
+    padding:    0 0 5px 4.30%;
+    font-size:  12px;
+    color:      #000000;
+    font-weight: 700;
+}
+
+.participation-form .separador .note{
+    display:    block;
+    clear:      both;
+    padding:    5px 0 0 4.30%;
+    font-size:  12px;
+    color:      #000000;
+    font-weight: 700;
+}
+
+.participation-form .separador .fieldStyle{
+    display:    block;
+    clear:      both;
+    width:      90%;
+    font-size:  18px;
+    color:      #000000;
+    padding:    8px 4.30% 6px 4.30%;
+
+    background: transparent;
+    border:     2px solid #dedede;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    outline-color: #bed630;
+}
+
+.participation-form .buttons-wrapper {
+    display:    block;
+    clear:      both;
+    text-align: center;
+}*/
+
+.prizes{
+    clear: both;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center
+}
+
+.prizes .item{
+    display:    block;
+    width:      305px;
+}
+
+.prizes .item .image{
+    display:    block;
+    clear:      both;
+    padding:    0 0 15px 0;
+    text-align: center;
+}
+
+.prizes .item .text{
+    display:        block;
+    clear:          both;
+    font-weight:    bold;
+    font-size:      17px;
+    padding:        0 0 30px 0;
+}
+
+.prizes .item .morelink{
+    display:    block;
+    clear:      both;
+    text-align: center;
+    margin-bottom: 55px
+}
+
+.prizes .title {
+    font-size: 24px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #44c0c9;
+    border-bottom: 3px solid #44c0c9
+}
+
+p a{
+  color: #44c0c9;
+}
+
+.only-desktop{
+  display: block
+}
+
+.only-mobile{
+  display: none
+}
+
+/* ------------------------------- */
+/* CLEAN STYLE
+/* ------------------------------- */
+.cleanStyle
+{
+      line-height: 30px;
+      padding: 100px 0 40px
+}
+
+.cleanStyle h1
+{
+      color: #44c0c9;
+      text-transform: uppercase;
+      border-bottom: 3px solid #44c0c9;
+      display: inline-block;
+      font-weight:  700;
+      margin: 0;
+      margin-bottom: 30px;
+      font-family: Arial;
+}
+
+.cleanStyle h2
+{
+      font-size:    37px;
+      font-weight:  400;
+      color:        #000000;
+      margin:       0 0 15px 0;
+      font-family:  Arial;
+      line-height:  42px;
+}
+
+.cleanStyle h3
+{
+      font-size:    27px;
+      font-weight:  normal !important;
+      color:        #656c72;
+      margin:       0 0 12px 0;
+      font-family: Arial;
+}
+
+.cleanStyle h4
+{
+      font-size:    17px;
+      font-weight:  700 !important;
+      color:        #656c72;
+      margin:       0 0 12px 0;
+      font-family: Arial;
+}
+
+.cleanStyle p
+{
+    font-weight: bold;
+      margin: 0 0 20px 0;
+      font-size: 17px
+}
+
+.cleanStyle strong
+{
+      font-weight: bold;
+}
+
+.cleanStyle em{
+      font-style:   normal;
+      font-size:    17px;
+}
+
+.cleanStyle u
+{
+      text-decoration: underline;
+}
+
+.cleanStyle strike
+{
+      text-decoration: line-through;
+}
+
+.cleanStyle ul
+{
+      width: 70%;
+      display: block;
+      margin: 5px 0 15px;
+      list-style-position: inside;
+      text-align: left;
+      line-height: 20px;
+}
+
+.cleanStyle ul li
+{
+      display: list-item !important;
+      margin: 10px 0 15px 0;
+      font-size: 17px;
+      font-weight: bold;
+      padding: 0 !important;
+}
+
+.cleanStyle ul ul, .cleanStyle ul ul ul
+{
+      margin: 5px 0;
+}
+
+.cleanStyle ol
+{
+      display: block;
+      margin: 5px 0 15px 0;
+      padding: 0 0 0 15px;
+      list-style-type: decimal;
+      list-style-position: outside;
+      clear: both;
+      line-height: 20px;
+}
+
+.cleanStyle ol ol, .cleanStyle ol ol ol
+{
+      margin: 5px 0;
+}
+
+.cleanStyle ol li
+{
+      display: list-item !important;
+      margin: 0 0 5px 0;
+      padding: 0 !important;
+}
+
+.cleanStyle ol li
+{
+      list-style-image: none;
+      list-style-type: decimal;
+      list-style-position: outside;
+}
+
+.cleanStyle ol li li
+{
+      list-style-image: none;
+      list-style-type: decimal;
+      list-style-position: outside;
+}
+
+.cleanStyle ol li li li
+{
+      list-style-image: none;
+      list-style-type: decimal;
+      list-style-position: outside;
+}
+
+.cleanStyle blockquote
+{
+      margin-left: 40px;
+}
+
+.cleanStyle hr
+{
+      clear: both;
+      margin: 5px 0 15px 0;
+      border: 1px solid #6d7496;
+}
+
+.cleanStyle table
+{
+      width: 100%;
+      margin: 5px 0 15px 0;
+      border-right: 1px solid #959595;
+      border-bottom: 1px solid #7f7f7f;
+}
+
+.cleanStyle table thead th
+{
+      color: #4b4b4b;
+      padding: 5px;
+      text-align: center;
+      background: #dddcdc;
+}
+
+.cleanStyle table td
+{
+      border-top: 1px solid #7f7f7f;
+      border-left: 1px solid #7f7f7f;
+}
+.cleanStyle table th
+{
+      border-top: 1px solid #959595;
+      border-left: 1px solid #959595;
+}
+
+.cleanStyle table tbody th
+{
+      color: #4b4b4b;
+      padding: 5px;
+      text-align: center;
+      background: #dddcdc;
+}
+.cleanStyle table tbody td
+{
+      color: #828282;
+      padding: 5px 0;
+      text-align: center;
+      background: #ebeaea;
+}
+
+.cleanStyle table p
+{
+      margin: 0 !important;
+}
+
+.cleanStyle a
+{
+      color: #d71920;
+}
+
+
+
+@media screen and (max-width: 620px) {
+  .general-content {
+      background: url(../images/illustration-small.png) no-repeat center bottom;
+      background: url(../images/illustration-small.png) no-repeat center bottom;
+      background-size: 100%;
+      padding-bottom: 300px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .cleanStyle p,
+    .cleanStyle ul li{
+      font-size: 15px;
+      line-height: 22px;
+    }
+
+    .cleanStyle ul{
+      width: 90%;
+    }
+
+    .general-content{
+      padding-bottom: 300px
+    }
+
+    .only-desktop{
+      display: none
+    }
+
+    .only-mobile{
+      display: block
+    }
+
+    .fb-Navigation.only-mobile{
+      text-align: center;
+    }
+
+    .fb-Navigation.only-mobile a{
+      margin: 20px 10px 0;
+    }
+
+    .fb-footer,
+    .fb-push {
+      padding: 45px 0 0px;
+    }
+
+    .fb-push img {
+        display: inline-block;
+        width: 15%;
+        margin-right: 20px;
+        vertical-align: middle;
+    }
+
+    .prizes .title{
+      font-size: 24px;
+    }
+
+    .header{
+      padding: 0;
+    }
+
+    .prizes .item .text {
+        min-height: auto;
+        margin-bottom: 20px;
+    }
+
+    .fb-head {
+        height: auto;
+    }
+
+    .fb-head .bg-image {
+        position: static;
+    }
+
+    .fb-head .bg-image .vouchers {
+        background-position: 15% center
+    }
+
+    .fb-head .fb-head-logo {
+        position: static;
+        clear: both;
+        width: 100%;
+        height: auto
+    }
+
+    .fb-head .fb-head-logo:after {
+        display: none;
+    }
+
+    .fb-head .fb-head-content {
+        position: relative;
+        width: auto;
+        right: auto;
+        text-align: center;
+    }
+
+    .fb-head .fb-head-content h1 {
+        width: 80%;
+        margin: 0 auto 30px;
+        font-size: 26px;
+        line-height: 31px;
+    }
+
+    .fb-head .fb-head-content p {
+      width: 80%;
+      margin: 0 auto 30px;
+      font-size: 22px;
+    }
+
+    .fb-head .corner {
+        top: 397px;
+    }
+
+    .mobile-lang .desktop {
+        display: none;
+    }
+
+    .navigation-menu .main-Navigation {
+        display: none;
+    }
+
+    .navigation-menu {
+        text-align: center;
+        width: auto;
+        display: none!important
+    }
+
+    .navigation-menu .fb-Navigation {
+        float: none;
+        clear: both;
+        margin: 0;
+    }
+
+    .navigation-menu .fb-Navigation a{
+      margin-bottom: 30px;
+    }
+
+    .navigation-menu .fb-Navigation .fb-button {
+        float: none!important;
+        clear: both!important;
+        display: inline-block;
+
+    }
+
+    .main-menu{
+        display: none
+    }
+
+    .header .mobile{
+        display: block;
+    }
+
+    .mobile .menu{
+        border-bottom: 1px solid #a8a2ab;
+        background: #fff;
+    }
+
+    .mobile .menu div{
+        clear: none !important;
+    }
+
+    .mobile .menu ul{
+        display: none;
+        position: absolute !important;
+        top: 68px;
+        left: 0;
+        width: 100% !important;
+        z-index: 50
+    }
+
+    .mobile .menu ul li:first-child{
+       border-top: 1px solid #a8a2ab;
+    }
+
+    .mobile .menu ul li{
+       clear: both;
+    }
+
+     .mobile .menu ul li a{
+       display: block;
+       text-align: center;
+       font-family: 'Lato', sans-serif;
+       font-weight: 300;
+       background: #fff;
+       padding: 10px 0;
+       text-decoration: none;
+       width: 100%;
+       color: #656c72;
+       font-size: 27px;
+       border-bottom: 1px solid #a8a2ab;
+    }
+
+    .mobile .menu ul li.fb a,
+    .mobile .menu ul li.fb a:hover{
+        background: #2e4586 url(../images/facebook-logo-mobile.png) no-repeat right center;
+        color: #fff;
+    }
+
+    .mobile .menu ul li:hover a{
+        background: #e5e5e5;
+    }
+
+    .mobile .menu ul li a:active{
+        background: #e5e5e5
+    }
+
+    .mobile .menu-button{
+        display: inline-block;
+        width: 62px;
+        height: 68px;
+        background: url(../images/menu-mobile.png) no-repeat 0 0;
+        background-size: 100%;
+        border-right: 1px solid #d7d7d7;
+        float: left;
+    }
+
+    .mobile .menu-button ul.show{
+        display: block;
+    }
+
+    .mobile .logo-mobile{
+        display: inline-block;
+        min-width: 160px;
+        margin: 0 10px;
+        height: 68px;
+        background: url(../images/tap-logo-mobile.png) no-repeat center center;
+        background-size: 100%;
+        float: left;
+    }
+
+    .mobile .mobile-lang{
+        float: right;
+        padding-top: 25px;
+        height: 44px;
+        margin-right: 10px
+    }
+
+    .mobile .mobile-lang span{
+        color: #787f85;
+        text-decoration: underline;
+        font-size: 13px
+    }
+
+     .mobile .mobile-lang a{
+        text-decoration: none;
+        margin-right: 5px;
+        font-size: 13px
+    }
+
+    .fb-footer .fb-Center {
+        padding: 30px 0 0 0;
+    }
+
+    .fb-footer .partner,
+    .fb-footer .victoria {
+        float:      left;
+        clear:      both;
+        width:      100%;
+        padding:    0 0 15px 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .fb-footer .partner img,
+    .fb-footer .victoria img{
+        display: inline-block;
+    }
+
+
+    .fb-footer, .fb-push {
+        height: 75px;
+    }
+
+    .fb-Center{
+        max-width:  300px;
+        padding:    0 10px;
+    }
+
+    .prizes .item {
+        float: none!important;
+        clear: both!important;
+        margin: 0 auto;
+        padding: 0 0 50px 0;
+        width: auto;
+    }
+
+    .dialog .buttons {
+        text-align: center;
+    }
+
+    .dialog .buttons a {
+        clear: both;
+        margin: 0  0 20px 0;
+    }
+}
+@media screen and (max-width: 360px){
+  .prizes .title{
+    font-size: 22px;
+  }
+
+  .general-content {
+    padding-bottom: 200px;
+  }
+}

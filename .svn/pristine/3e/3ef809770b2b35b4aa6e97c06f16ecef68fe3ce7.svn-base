@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]><html class="ie9" lang="en"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="HandheldFriendly" content="true">
+	<title>Love, Set &amp; Go! | Passatempos TAP</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link href="css/styles.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+	<meta property="fb:app_id" content="1722098058025861">
+	<meta property="og:title" content="Love, Set &amp; Go! | Passatempos TAP">
+	<meta property="og:url" content="http://passatempos.flytap.com/lovesetgo">
+	<meta property="og:description" content="Search through the airport and win a romantic trip.">
+	<meta property="og:image" content="http://passatempos.flytap.com/lovesetgo/images/share-en.png">
+	<meta property="og:locale" content="en_US">
+</head>
+<body>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-30102483-40', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+	<div id="fb-root"></div>
+
+	<script>
+	window.fbAsyncInit = function () {
+		FB.init({
+			appId      : '1722098058025861',
+			xfbml      : true,
+			version    : 'v2.5'
+		});
+
+		if (typeof facebookInit == 'function'){
+			facebookInit();
+			}
+
+	};
+
+		(function(d, s, id){
+			 var js, fjs = d.getElementsByTagName(s)[0];
+			 if (d.getElementById(id)) {return;}
+			 js = d.createElement(s); js.id = id;
+			 js.src = "//connect.facebook.net/en_US/sdk.js";
+			 fjs.parentNode.insertBefore(js, fjs);
+		 }(document, 'script', 'facebook-jssdk'));
+ </script>
+
+	<section class="fb-Wrapper clearfix">
+		<!-- TAP HEADER -->
+		<div class="header">
+			<div class="main-menu fb-center">
+				<a class="pull-left" href="http://passatempos.flytap.com/index-en.html" title=""><span>All Competitions</span></a>
+				<div class="header-title">Competitions</div>
+				<a class="pull-right language pt" href="index.html">
+					<span class="desktop">Ler em português</span>
+					<span class="mobile">PT</span>
+				</a>
+				<div class="clearfix"></div>
+			</div>
+			<div class="mobile">
+				<div class="menu">
+
+					<div class="logo-mobile"></div>
+					<div class="mobile-lang">
+						<a class="pull-right language pt" href="index.html">
+							<span class="desktop">Ler em português</span>
+							<span class="mobile">PT</span>
+						</a>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+
+		<!-- COMPETITION HEADER -->
+		<div class="fb-head clearfix">
+			<div class="fb-Navigation only-desktop">
+				<a href="#" class="blue-button fbButtonShare" data-url="http://localhost/">Share</a>
+			</div>
+			<img src="images/header-en.png" alt="" />
+			<div class="fb-head-logo">
+				<div class="fb-head-content">
+					<h1>Love, Set &amp; Go!</h1>
+					<p>The passion fever is in the air. TAP is going to offer 10 trips to the couples that can show that their love can take them wherever they need.</p>
+
+					<div class="fb-Navigation only-mobile">
+						<a href="#" class="blue-button fbButtonShare" data-url="http://localhost/">Share</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- MODAL -->
+		<div id="dialogHowToWin" class="dialog dialog-overlay" style="height: 1890px;">
+			<div class="fb-Center">
+				<div class="close-overlay"><a href="#" onclick="javascript: closeOverlay(); return false;" title="Fechar">Fechar</a></div>
+				<h2>How to win</h2>
+				<p>The couples that want to enter this competition have to go to the Lisbon Airport or Porto Airport on February 14th, 2016.</p>
+
+<p>The couples must be wearing clothes that are usually used for marriage ceremonies. Regardless the culture or aesthetics, it must be obvious that both are wearing clothes that could be used in a matrimonial ceremony. The couples must also be prepared to travel. They must bring with them all the necessary luggage and valid Passports. Only TAP can decide if the couples meet the rules of the competition.</p>
+
+<p>To find the secret location where the prize is, the contestants must stay tuned to TVI’s television broadcast or visit <a href="https://www.facebook.com/TAPPortugal" target="_blank">TAP’s Facebook page</a>. There, they will find the indications they need to win the competition. The first 6 couples to find the location in Lisbon’s Airport and the first 4 to do the same in Porto’s Airport will board immediately in one of the romantic trips.
+</p>
+				<h2>Rules</h2>
+				<p>1. Each couple must arrive together, dressed to get married and carry valid Passports (until at least 6 months).</p>
+<p>2. The winning couples have to enjoy the prize immediately. It will be impossible, under any circumstance, to delay or reschedule the flight and the stay. </p>
+<p>3. If the winning couples, for any reason, are prevented from boarding, the prize will be given to other contestants.</p>
+				<div class="buttons-row">
+						<a href="termsconditions-porto.html" class="red-button">Terms &amp; Conditions Porto</a>
+						<a href="termsconditions-lisbon.html" class="red-button">Terms &amp; Conditions Lisbon</a>
+				</div>
+			</div>
+		</div>
+
+		<div id="dialogWhatToWin" class="dialog dialog-overlay" style="height: 1890px;">
+			<div class="fb-Center">
+				<div class="close-overlay"><a href="#" onclick="javascript: closeOverlay(); return false;" title="Fechar">Fechar</a></div>
+				<h2>What you can win</h2>
+				<p>The first 6 couples to find the secret location in Lisbon Airport will win trips and stays in the following TAP destinations, according to their arrival order: Natal — Brazil (2 couples), Rome, Paris, Funchal and Ponta Delgada. </p>
+
+<p>The first 4 couples to find the secret location in Porto Airport will win trips and stays in the following TAP destinations, according to their arrival order: Paris, Rome, London and Amsterdam. </p>
+
+<p>The winning couples must board in the day of the competition.</p>
+				<h2>Rules</h2>
+				<p>1. Each couple must arrive together, dressed to get married and carry valid Passports (until at least 6 months).</p>
+<p>2. The winning couples have to enjoy the prize immediately. It will be impossible, under any circumstance, to delay or reschedule the flight and the stay. </p>
+<p>3. If the winning couples, for any reason, are prevented from boarding, the prize will be given to other contestants.</p>
+				<div class="buttons-row">
+						<a href="termsconditions-porto.html" class="red-button">Terms &amp; Conditions Porto</a>
+						<a href="termsconditions-lisbon.html" class="red-button">Terms &amp; Conditions Lisbon</a>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- CONTENT -->
+		<div class="general-content">
+			<div class="fb-Center">
+				<div class="prizes">
+					<div class="item pull-left">
+						<div class="title">
+							What you can win
+						</div>
+						<div class="text">
+							On Valentine’s Day, we will be offering trips to Brazil, Rome, Paris, London, Amsterdam, Funchal and Ponta Delgada to 10 couples. Note that this prize is only valid for that day and for that time. Be ready to Love, Set &amp; Go!
+						</div>
+						<div class="morelink">
+							<a data-dialog="dialogWhatToWin" href="#" title="See more" class="red-button has-icon"><span class="icon-heart"></span>See more<span class="icon-heart"></span></a>
+						</div>
+					</div>
+					<div class="item pull-right">
+						<div class="title">
+							How to win
+						</div>
+						<div class="text">
+							Show us the strength of your love! On Valentine’s Day, come to the Airports of Lisbon and Porto dressed as grooms and bring your passports and travelling bags. Then, you must stay tuned to the TVI broadcast or visit TAP's Facebook page and discover the secret place where you will win your romantic holidays. The first to get there will embark immediatly!
+						</div>
+						<div class="morelink"><a data-dialog="dialogHowToWin" href="#" title="See more" class="red-button has-icon"><span class="icon-heart"></span>See more<span class="icon-heart"></span></a></div>
+					</div>
+
+					<div class="buttons-row">
+							<a href="termsconditions-porto.html" class="red-button">Terms &amp; Conditions Porto</a>
+							<a href="termsconditions-lisbon.html" class="red-button">Terms &amp; Conditions Lisbon</a>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="fb-push">
+
+			<a href="http://www.flytap.com/Portugal/pt/Homepage" target="_blank" title="TAP Portugal"><img src="images/footer-logo-tap.png" alt="" title="TAP Portugal" /></a>
+			<a href="http://www.ana.pt/pt-PT/Paginas/Homepage.aspx" target="_blank" title="ANA Aeroportos de Portugal"><img src="images/footer-logo-ana.png" alt="" title="ANA Aeroportos de Portugal" /></a>
+			<a href="http://www.vinci-airports.com/" target="_blank" title="Vinci Airports"><img src="images/footer-logo-vinci.png" alt="" title="Vinci Airports" /></a>
+			
+			<a href="http://www.portobay.com/" target="_blank" title="PortoBay"><img src="images/footer-logo-portobay.png" alt="" title="Embratur" /></a>
+
+			<a href="http://www.embratur.gov.br/" target="_blank" title="Embratur"><img src="images/footer-logo-brazil.png" alt="" title="Embratur" /></a>
+
+		</div>
+
+		<script>
+
+				function closeOverlay() {
+						$('.dialog').hide();
+				}
+
+
+				$(function(){
+					$('.fbButtonShare').click(function(){
+						FB.ui({
+						  method: 'feed',
+						  link: 'http://competitions.flytap.com/lovesetgo/index-en.html',
+						  picture: 'http://passatempos.flytap.com/lovesetgo/images/share-en.png',
+						  caption: 'competitions.flytap.com',
+						  description: 'Search through the airport and win a romantic trip.',
+						  name: 'Love Set & Go | TAP Competitions'
+						}, function(response){});
+					});
+
+					if ($('.dialog').length) {
+							$('.morelink a').click(function () {
+									var curDialog = $(this).attr('data-dialog');
+									$('#'+curDialog).show();
+							});
+					}
+				});
+		</script>
+
+	</section>
+</body>
+</html>
